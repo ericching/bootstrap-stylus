@@ -1,5 +1,5 @@
-Bootstrap Stylus 3.3.1
-======================
+Meteor Bootstrap to Stylus 1.0.0
+================================
 
 This is a fork of the port of the amazing [Bootstrap 3.3.1](https://github.com/twbs/bootstrap) to [Stylus 0.47.0](http://learnboost.github.com/stylus/) to turn it into a Meteor package.
 
