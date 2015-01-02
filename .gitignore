@@ -1,3 +1,5 @@
-dist
-npm-debug.log
-node_modules
+.meteor/local
+.meteor/meteorite
+
+.idea/
+*.iml

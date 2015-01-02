@@ -1,7 +1,7 @@
 Bootstrap Stylus 3.3.1
 ======================
 
-Port of the amazing [Bootstrap 3.3.1](https://github.com/twbs/bootstrap) to [Stylus 0.47.0](http://learnboost.github.com/stylus/).
+This is a fork of the port of the amazing [Bootstrap 3.3.1](https://github.com/twbs/bootstrap) to [Stylus 0.47.0](http://learnboost.github.com/stylus/) to turn it into a Meteor package.
 
 There might be some slight color differences due to the differences between the color functions in LESS and those in Stylus.
 
