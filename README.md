@@ -7,49 +7,23 @@ There might be some slight color differences due to the differences between the 
 
 ## Installing
 
-Latest version via [Bower](https://github.com/bower/bower):
-
-```bash
-$ bower install bootstrap-stylus
 ```
-
-Legacy 2.3.2 version is kept in [this release](https://github.com/Acquisio/bootstrap-stylus/releases/tag/v2.3.2) and can be installed via Bower as well, however it does not include any build scripts.
-
-```bash
-$ bower install bootstrap-stylus#2.3.2
-```
-
-Via npm:
-
-```bash
-$ npm install bootstrap-styl
-```
-Example of requiring and using bootstrap middleware to create compile function to utilize in other frameworks.
-```javascript
-var bootstrap = require('bootstrap-styl'),
-    stylus    = require('stylus');
-
-function compile(str) {
-  return stylus(str)
-    .use(bootstrap());
-}
+meteor add innovae:meteor-bootstrap-stylus
 ```
 
 To import whole bootstrap in your stylus file:
 ```stylus
-@import bootstrap
+@import '.meteor/local/build/programs/web.browser/packages/innovae_meteor-bootstrap-stylus/bootstrap'
 ```
 
 Alternatively to import individual components:
 ```stylus
-@import 'bootstrap/alerts'
-@import 'bootstrap/variables'
-@import 'bootstrap/mixins'
-
+@import '.meteor/local/build/programs/web.browser/packages/innovae_meteor-bootstrap-stylus/bootstrap/alerts'
+@import '.meteor/local/build/programs/web.browser/packages/innovae_meteor-bootstrap-stylus/bootstrap/variables'
+@import '.meteor/local/build/programs/web.browser/packages/innovae_meteor-bootstrap-stylus/bootstrap/mixins'
 ```
 
 ## Compiling CSS from Stylus
-
 Bootstrap Stylus uses [Grunt](http://gruntjs.com/) with convenient methods for working with the framework. To use it, install the required dependencies as directed and then run some Grunt commands.
 
 ### Install Grunt
@@ -102,7 +76,12 @@ this allows flexibility for easily updating to new bootstrap versions. See [?=](
 + [http://twitter.com/fat](http://twitter.com/fat)
 + [http://github.com/fat](http://github.com/fat)
 
+## This Author
 
+**Eric Ching**
+
++ [https://twitter.com/innovaeinc](https://twitter.com/innovaeinc)
++ [https://github.com/ericching](https://github.com/ericching)
 
 ## Copyright and license
 
