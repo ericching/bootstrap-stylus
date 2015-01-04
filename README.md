@@ -8,19 +8,19 @@ There might be some slight color differences due to the differences between the 
 ## Installing
 
 ```
-meteor add innovae:meteor-bootstrap-stylus
+meteor add innovae:bootstrap-stylus
 ```
 
 To import whole bootstrap in your stylus file:
 ```stylus
-@import '.meteor/local/build/programs/web.browser/packages/innovae_meteor-bootstrap-stylus/bootstrap'
+@import '.meteor/local/build/programs/web.browser/packages/innovae_bootstrap-stylus/bootstrap'
 ```
 
 Alternatively to import individual components:
 ```stylus
-@import '.meteor/local/build/programs/web.browser/packages/innovae_meteor-bootstrap-stylus/bootstrap/alerts'
-@import '.meteor/local/build/programs/web.browser/packages/innovae_meteor-bootstrap-stylus/bootstrap/variables'
-@import '.meteor/local/build/programs/web.browser/packages/innovae_meteor-bootstrap-stylus/bootstrap/mixins'
+@import '.meteor/local/build/programs/web.browser/packages/innovae_bootstrap-stylus/bootstrap/alerts'
+@import '.meteor/local/build/programs/web.browser/packages/innovae_bootstrap-stylus/bootstrap/variables'
+@import '.meteor/local/build/programs/web.browser/packages/innovae_bootstrap-stylus/bootstrap/mixins'
 ```
 
 ## Compiling CSS from Stylus

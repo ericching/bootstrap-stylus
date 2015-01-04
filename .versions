@@ -8,9 +8,9 @@ ejson@1.0.5
 follower-livedata@1.0.3
 geojson-utils@1.0.2
 id-map@1.0.2
-innovae:meteor-bootstrap-stylus@1.0.0
+innovae:bootstrap-stylus@1.0.1
 json@1.0.2
-local-test:innovae:meteor-bootstrap-stylus@1.0.0
+local-test:innovae:bootstrap-stylus@1.0.1
 logging@1.0.6
 meteor@1.1.4
 minimongo@1.0.6
