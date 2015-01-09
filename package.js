@@ -81,7 +81,6 @@ Package.onUse(function(api) {
     api.addFiles('fonts/glyphicons-halflings-regular.svg', 'client');
     api.addFiles('fonts/glyphicons-halflings-regular.ttf', 'client');
     api.addFiles('fonts/glyphicons-halflings-regular.woff', 'client');
-    api.addFiles('index.js', 'client');
     api.addFiles('js/affix.js', 'client');
     api.addFiles('js/alert.js', 'client');
     api.addFiles('js/button.js', 'client');
