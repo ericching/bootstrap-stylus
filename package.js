@@ -1,7 +1,7 @@
 Package.describe({
   name: 'innovae:bootstrap-stylus',
   summary: 'Meteor package for the Bootstrap 3.3.1 port to Stylus',
-  version: '1.0.1',
+  version: '1.0.2',
   git: 'https://github.com/ericching/meteor-bootstrap-stylus.git'
 });
 
@@ -88,10 +88,10 @@ Package.onUse(function(api) {
     api.addFiles('js/collapse.js', 'client');
     api.addFiles('js/dropdown.js', 'client');
     api.addFiles('js/modal.js', 'client');
+    api.addFiles('js/tooltip.js', 'client');
     api.addFiles('js/popover.js', 'client');
     api.addFiles('js/scrollspy.js', 'client');
     api.addFiles('js/tab.js', 'client');
-    api.addFiles('js/tooltip.js', 'client');
     api.addFiles('js/transition.js', 'client');
 });
 
